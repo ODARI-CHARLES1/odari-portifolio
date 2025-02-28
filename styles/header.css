@@ -1,0 +1,76 @@
+@import url('/styles/main.css');
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    flex: 44.167%;
+}
+.logo span{
+    color: var(--accent-color);
+}
+nav{
+    flex: 44.167%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+nav ul li{
+    position:relative;
+    padding: 31px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    transition: 0.5s;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00adb5;
+    position: absolute;
+    top: 100%;    
+    left: 0;
+    transform: translate(-50% -50%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.background-toggle{
+    flex: 11.667%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.background-toggle button{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    background-color: var(--white);
+    border: none;
+}
+
+.background-toggle button span{
+    height: 30px;
+    background-color: var(--primary-color);
+    width: 30px;
+    border-radius: 50%;
+}
+
