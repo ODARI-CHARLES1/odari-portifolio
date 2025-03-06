@@ -1,6 +1,6 @@
 :root{
     --primary-color:#00adb5;
-    --background-color:#273743;
+    --background-comp:#273743;
     --text-color:#EEE;
     --accent-color:#ff5722;
     --white:#fff;
@@ -13,6 +13,7 @@
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
+
 }
 
 body{
@@ -25,6 +26,7 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    overflow-x: hidden;
 }
 
 h1{
@@ -32,6 +34,13 @@ h1{
     color: var(--white);
 }
 
+h2{
+    font-size: 30px;
+    color: var(--white);
+}
+h3{
+    color: var(--white);
+}
 p{
     font-size: 16px;
     color: var(--text-color);
