@@ -1,0 +1,50 @@
+@import url(./main.css);
+
+.contact{
+    width: 100%;
+    margin: 100px 0;
+}
+
+.contact-text{
+    height: 100px;
+    width: 570px;
+}
+.contact>h2{
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: 5px;
+    margin: 20px 0px;
+}
+
+
+
+.contact-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 100px auto;
+    gap: 50px;
+    height: 200px;
+   
+}
+ 
+.contact .logo{
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2F3743;
+    gap: 20px;
+}
+ .contact .logo img{
+    width: 60px;
+    aspect-ratio: 1;
+ }
+.logo p{
+    justify-self:flex-end;
+
+}

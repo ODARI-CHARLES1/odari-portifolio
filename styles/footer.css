@@ -1,0 +1,21 @@
+@import url(./main.css);
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto 50px;
+    width: 100%;
+    text-align: center;
+    gap: 50px;
+    height: 200px;
+
+}
+
+.prof-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

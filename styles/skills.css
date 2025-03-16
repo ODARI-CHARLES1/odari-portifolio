@@ -1,0 +1,93 @@
+@import url(../styles/main.css);
+
+.skill{
+    width: 100%;
+    margin: 100px 0;
+}
+
+.skill-text{
+    height: 100px;
+    width: 570px;
+}
+.skill>h2{
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: 5px;
+    margin: 20px 0px;
+}
+
+
+.skill-nav{
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.skill-nav ul{
+    display: flex;
+    align-items: center;
+    justify-self:flex-start;
+    gap: 50px;
+}
+ .skill-nav ul li{
+    position: relative;
+    cursor: pointer;
+ }
+.skill-nav ul li a{
+    font-size: 20px;
+}
+.active{
+    background-color: #2F3743;
+    padding: 6px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inactive{
+    color: #2F3743
+}
+
+#active-link{
+    color: #00ADB5;
+}
+
+.skill-cards{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill-nav ul li:hover::after{
+    transition: 0.5s;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00adb5;
+    position: absolute;
+    top: 100%;    
+    left: 0;
+    transform: translate(-50% -50%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.skill .card{
+    width: 350px;
+    height: 360px;
+    background-image: url(../assests/skills.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.skill .card img{
+    width: 100%;
+    height: 100%;
+}
